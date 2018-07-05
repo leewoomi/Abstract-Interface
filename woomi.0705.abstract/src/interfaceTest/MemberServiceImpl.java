@@ -1,9 +1,11 @@
 package interfaceTest;
 
+import java.io.Serializable;
+
 //MemberService 인터페이스를 implements한 클래스를 생성
 //하나의 인터페이스를 implements한 클래스의 이름은 인터페이스 이름 뒤에
 //Impl을 붙이는 것이 관례
-public class MemberServiceImpl implements MemberService {
+public class MemberServiceImpl implements MemberService, Serializable {
 
 	@Override
 	public boolean idCheck(String id) {

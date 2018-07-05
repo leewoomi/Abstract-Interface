@@ -9,6 +9,7 @@ public class Main {
 		// 인터페이스로 만든 변수는 자신을 implements 한 클래스의
 		// 인스턴스의 주소를 저장할 수 있다.
 		MemberService memberservice = new MemberServiceImpl();
+		//인터페이스  =new 클래스();
 
 		Scanner sc = new Scanner(System.in);
 		String id = null;
